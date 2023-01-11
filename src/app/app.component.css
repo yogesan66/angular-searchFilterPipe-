@@ -1,0 +1,15 @@
+p {
+  font-family: Lato;
+}
+
+li{
+  list-style-type: none;
+  padding:9px;
+
+}
+
+.list{
+   background-color: rgb(224, 218, 218);
+   border-radius: 2px;
+   width:170px;
+}

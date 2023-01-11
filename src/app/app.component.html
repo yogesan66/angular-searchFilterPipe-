@@ -1,0 +1,6 @@
+<input type="search" [(ngModel)]="studentsname" placeholder="Enter a student name">
+<div [ngClass]="'list'">
+  <ul *ngFor="let student of students | searchFilter :studentsname">
+  <li>{{student}}</li>
+</ul>
+</div>
