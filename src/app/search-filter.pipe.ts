@@ -11,7 +11,7 @@ export class SearchFilterPipe implements PipeTransform {
     if(!searchText) return value;
 
     return value.filter((student) =>{
-      return student.toLowerCase().includes(searchText)
+      return student.toUpperCase().includes(searchText) || student.toLowerCase().includes(searchText)
     })
   }
 
